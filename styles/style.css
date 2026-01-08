@@ -1,0 +1,33 @@
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+/* nav section created */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 120px;
+    background-color: #FFFFFF;
+    max-width: 1600px;
+}
+.nav-bar .menu-items .list-content li{
+    list-style: none;
+}
+.menu-items .list-content{
+    display: flex;
+    gap: 32px;
+}
+.nav-bar .btn button{
+    background-color: #469165;
+    max-width: 164px;
+    padding: 12px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.btn button:hover{
+    background-color:rgba(139, 0, 139, 0.806);
+}
