@@ -102,8 +102,8 @@
 
 .btn-arrow{
     display:inline-flex;
-    align-items: center;      /* vertical alignment */
-    gap: 10px;                /* space between icon & text */
+    align-items: center;      
+    gap: 10px;                
     padding: 16px 16px;
     border: none;
     background-color: #469165;
@@ -190,4 +190,61 @@
    font-size: 16px;
    line-height: 20px;
    color: #627382;
+}
+
+/* Brain section created */
+
+.brain{
+    max-width: 1600px;
+}
+
+.brain-container {
+    max-width: 1360px;
+    margin: 120px;
+    display: flex;
+    gap: 60px;
+}
+
+.brain-container .brain-img{
+    max-width: 600px;
+}
+
+.brain-container .content{
+    max-width: 700px;
+    margin: 102px 0;
+}
+
+.content .content-title #p1{
+    font-size: 16px;
+    line-height: 20px;
+    color: #469165;
+    text-align: left;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+
+.content .content-title #title{
+    font-size: 45px;
+    font-weight: bold;
+    color: #001931;
+    text-align: left;
+    margin-bottom: 16px;
+
+}
+
+.content .content-title #p2{
+    font-size: 16px;
+    line-height: 20px;
+    color:#627382;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.content-title{
+    margin-bottom: 40px;
+}
+
+.content .content-checklist{
+    display: flex;
+    margin-bottom: 16px;
 }
