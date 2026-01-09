@@ -1,0 +1,14 @@
+.my-goal{
+    max-width: 1600px;
+    background-color: burlywood;
+    margin: 50px 0;
+    padding: 50px;
+    align-items: center;
+    border-radius: 40%;
+}
+.my-goal h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button:hover{
+    background-color:rgba(139, 0, 139, 0.806);
+}
